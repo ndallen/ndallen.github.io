@@ -1,51 +1,73 @@
-body,
-html {
-  width: 100%;
-  height: 100%;
-  background-color: #525252;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-image: url('header.jpg');
+body{
+  background-image: url('background.jpeg');
   background-position: center;
-}
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  padding-bottom: 250px;
-}
-.tagline {
-  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  font-family: 'Raleway', sans-serif;
 }
 
-.progress-bar {
-  background-color: #d6b762;
-  color: black;
+.jumbotron,.bio {
+  background: none;
 }
 
-.copyright {
+.name {
   color: white;
+  text-transform: uppercase;
+}
+
+#subtitle {
+  color: white;
+  font-size: 2em;
+   text-transform: uppercase;
+}
+
+.skills {
   text-align: center;
-  padding-bottom: 100px;
 }
 
-.registration-box {
-  position: relative;
-   display: flex;
-   margin: 0 auto;
-  flex-direction: column;
-  justify-content: end;
+.list-group-item {
+  text-align: center;
+  font-size: 1.25em;
+}
+.jumbotron-fluid {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.skills{
+ list-style-type: none;
+  color: white;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.skills:hover {
+  color: #96e8e1;
+}
+
+.signup {
+  width: 25%;
+  min-width: 200px;
+  background-color: grey;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 10px;
+  margin-left: 10px;
+
   
 }
-.register {
-  width: 200px;
-  height: 50px;
-position: absolute;
-top: 210px;
-left: -100px;
-border-radius: 15px;
+
+.cta {
+  margin: 25px 25px 0 25px;
+  padding-top: 10px;
+  background-color:#f7f2f2;
+  width: 75%;
+}
+.mc_embed_signup {
+  width: 50%;
+}
+
+.lead {
+  font-size: 1.3em;
 }
