@@ -1,27 +1,51 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #525252;
+}
 
 body {
-	background-color: black;
-	background-image: url('img/background.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-
-
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('header.jpg');
+  background-position: center;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 250px;
+}
+.tagline {
+  color: white;
 }
 
-h1 {
-	text-align: center;
-	color: white;
-	padding-top: 50px;
-	font-size: 4em;
-
+.progress-bar {
+  background-color: #d6b762;
+  color: black;
 }
 
-.container{
-	text-align: center;
-
+.copyright {
+  color: white;
+  text-align: center;
+  padding-bottom: 100px;
 }
 
-.call-to-action {
-	margin-top: 30px;
+.registration-box {
+  position: relative;
+   display: flex;
+   margin: 0 auto;
+  flex-direction: column;
+  justify-content: end;
+  
 }
-
+.register {
+  width: 200px;
+  height: 50px;
+position: absolute;
+top: 210px;
+left: -100px;
+border-radius: 15px;
+}
